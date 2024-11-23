@@ -263,7 +263,7 @@ header {
 
 .svgs {
  margin: 24px 100px;  
- 
+}
   
 .ourteam-social {
   display: flex;
@@ -273,9 +273,47 @@ header {
   
 }
 
-.outteam-svg {
+.social-media-people {
+  padding: 32px 0;
+  
+}
+
+.social-media-ul{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.social-media-li {
   width: 40px;
-   height: 40px
+  height: 40px;
+  
+}
+
+.soss {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.soss:hover {
+  background-color: #404bbf;
+
+}
+
+.soss:focus {
+  background-color: #404bbf;
+}
+ 
+.outteam-svg {
+ width: 40px;
+ height: 40px;
 }
   
   .section-two-mini-title {
@@ -310,6 +348,8 @@ header {
   .section-three-list {
     background-color: #FFFFFF;
     list-style-type: none;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 
   }
   .section-three-container {
@@ -376,6 +416,11 @@ header {
   list-style-type: none;
   justify-content: center;
  }
+
+ .section-four-li {
+
+}
+
  .section-four-container-div{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
