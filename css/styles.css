@@ -263,6 +263,8 @@ header {
 
 .svgs {
  margin: 24px 100px;  
+ width:"64";
+ height: "64";
 }
   
 .ourteam-social {
@@ -274,7 +276,8 @@ header {
 }
 
 .outteam-svg {
-  
+  width: 40px;
+   height: 40px
 }
   
   .section-two-mini-title {
