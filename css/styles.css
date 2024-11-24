@@ -301,18 +301,16 @@ header {
   justify-content: center;
 }
 
-.soss:hover {
-  background-color: #404bbf;
-
-}
-
+.soss:hover,
 .soss:focus {
   background-color: #404bbf;
+
 }
+
+
  
 .outteam-svg {
- width: 40px;
- height: 40px;
+ 
 }
   
   .section-two-mini-title {
@@ -500,10 +498,10 @@ header {
 .boxum {
   
   margin-right: 120px;
-  padding: 0;
+  /* padding: 0;
   gap: 16px;
   padding-top: 100px;
-  
+   */
   
 }
 
@@ -580,6 +578,8 @@ header {
 .footer-socialsvg {
   width: 40px;
   height: 40px;
+  display: flex;
+  gap: 16px;
 
 }
 
