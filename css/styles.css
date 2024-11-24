@@ -600,11 +600,9 @@ header {
   justify-content: center;
 }
 
-.foot-soss:hover {
-  background-color: #404bbf;
-
-}
-
+.foot-soss:hover, 
 .foot-soss:focus {
   background-color: #404bbf;
+
 }
+
