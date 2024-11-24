@@ -223,6 +223,11 @@ header {
     padding: 120px 0;
     justify-items: center;
   }
+
+  .services-svg {
+    width: 64px;
+    height: 64px;
+  }
   
   .section-two-ul{
     display: flex;
